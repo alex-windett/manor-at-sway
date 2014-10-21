@@ -52,6 +52,14 @@ list-style: none;
 margin-left: 2em;
 }
 
+nav li:first-child {
+  margin-top: 13px;
+}
+
+nav li {
+  padding-bottom: 10px;
+}
+
 nav a img {
   width: 30px;
   height: auto;
@@ -60,12 +68,17 @@ nav a img {
   padding-bottom: -1px;
 }
 
-nav a li:first-child img{ margin-top: 12px; }
-nav a img:nth-child(2) { margin-top: 12px; }
-nav a img:nth-child(3) { margin-top: 18px; }
-nav a img:nth-child(4) { margin-top: 15px; }
-nav a img:nth-child(5) { margin-top: 13px; }
-nav a img:last-child { margin-top: 12px; }
+nav li a p {
+display: inline-block;
+}
+
+#gallery, #food, #bedrooms { vertical-align: top; margin-top: 7px; }
+
+#things {  vertical-align: top; margin-top: 10px; }
+
+#events { vertical-align: top; margin: 13px 0 0 0; }
+
+#garden { vertical-align: top; margin: 13px 0 0 0; }
 
 /*Contact Details*/
 .telephone p, .address p {
