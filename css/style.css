@@ -1,6 +1,6 @@
 body {
-  background-image: url("../images/23736097-misty-old-forest-autumn-woods.jpg");
-  background-size: cover;
+  background-image: url("../images/PADDING.png");
+  background-size: 100% 100%;
   margin: 0;
   font-family: 'ITC Serif Gothic Std Roman';
   color: #999933;
@@ -40,14 +40,14 @@ margin-left: 18em;
   list-style: none;
   display: inline-block;
   padding: 0 0 1em 1em;
+  font-size: 14px;
 }
 
 /*NAV BAR*/
 nav {
 float: left;
 height: 100%;
-width: 17%;
-display: block;
+width: 20%;
 list-style: none;
 margin-left: 2em;
 }
@@ -70,17 +70,25 @@ nav a img {
 
 nav li a p {
 display: inline-block;
+font-size: 18px;
 }
 
-#gallery, #food, #bedrooms { vertical-align: top; margin-top: 7px; }
+#food, #bedrooms { vertical-align: top; margin-top: 4px; }
 
-#things {  vertical-align: top; margin-top: 10px; }
+#things {  vertical-align: top; margin-top: 6px; }
 
-#events { vertical-align: top; margin: 13px 0 0 0; }
+#events { vertical-align: top; margin-top: 8px; }
 
-#garden { vertical-align: top; margin: 13px 0 0 0; }
+#garden { vertical-align: top; margin-top: 8px; }
+
+#gallery { vertical-align: top; margin: 4px 0 0 0; }
 
 /*Contact Details*/
+.telephone{
+  margin-bottom: 52px;
+}
+
+
 .telephone p, .address p {
   margin: 0 0 0 10px;
   font-size: 14px;
@@ -133,7 +141,7 @@ margin-right: 3em;
 
 .booking li {
   display: inline-block;
-  margin: 7px 1em 1px 1em;
+  margin: 3px 0 1px 0.5em;
 }
 
 button:focus {
@@ -144,12 +152,13 @@ button:focus {
 
 #availability {
   float: right;
-  margin: 5px;
+  margin: 6px;
   background-color: #6C712C;
-  padding: 4px 40px 6px 40px;
-  border-radius: 10px;
+  padding: 2px 40px 1px 40px;
+  border-radius: 8px;
   color: white;
   border: none;
+  font-size: 14px;
 }
 
 #datepicker {
@@ -162,12 +171,19 @@ button:focus {
 .info {
   width: 100%;
   margin-top: 1em;
+  position: relative;
 }
 
 .info_about {
   display: inline-block;
   width: 30%;
   vertical-align: top;
+  height: 400px;
+}
+
+.info_about p:last-child {
+  position: absolute;
+  bottom: 0;
 }
 
 .info_about:first-child {
@@ -191,12 +207,12 @@ button:focus {
   width: 100%
 }
 
-h1 {
+.main_content h1 {
   font-size: 1em;
 }
 
 .info_about p {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 /*Footer*/
