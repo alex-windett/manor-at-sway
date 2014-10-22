@@ -1,6 +1,7 @@
 body {
   background-image: url("../images/PADDING.png");
-  background-size: 100% 100%;
+  background-attachment: fixed;
+  /*background-size: 100% 100%;*/
   margin: 0;
   font-family: 'ITC Serif Gothic Std Roman';
   color: #999933;
