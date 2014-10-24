@@ -14,10 +14,9 @@ a {
 
 .content {
   background-color: white;
-  width: 60em;
-  /*height: auto;*/
-  margin: 0 auto 0 auto;
   overflow: hidden; 
+  padding: 2rem 5rem 2rem 5rem;
+
 }
 
 /*Manor at Sway Logo*/
@@ -121,14 +120,14 @@ margin-top: -3px;
 
 /*Main Content*/
 .main_content {
-width: 69%;
+width: 55rem;
 float: right;
 margin-right: 3em;
 }
 
 .main_hotel {
   width: 100%;
-  height: 20em;
+  height: 25em;
 }
 
 /*Booking Bar*/
@@ -141,7 +140,7 @@ margin-right: 3em;
 
 .booking li {
   display: inline-block;
-  margin: 3px 0 1px 0.5em;
+  margin: 3px 0 1px 2em;
 }
 
 button:focus {
@@ -176,9 +175,9 @@ button:focus {
 
 .info_about {
   display: inline-block;
-  width: 30%;
+  width: 17rem;
   vertical-align: top;
-  height: 400px;
+  height: 430px;
 }
 
 .info_about p:last-child {
@@ -200,7 +199,7 @@ button:focus {
 
 /*Image has been resized here not in photoshop*/
 .info_about:last-child img{
-  height: 133px;
+  height: 11.5rem;
 }
 
 .info_about img {
